@@ -86,7 +86,7 @@
       <div id="menu">
          <div class="m-logo">
             <h1>Home</h1>
-            <a role="button" href="index.html">Style My Space</a> 
+            <a role="button" href="index.html">Style Mi Space</a> 
          </div>
          <div class="m-menu">
             <ul>
@@ -252,7 +252,7 @@
 						 </svg>
                   </div>
                   <div class="s-footer-row"> 
-					  <div class="s-footer-column"> <ul class="f-pr"> <li><strong>Navigate</strong></li>
+					  <div class="s-footer-column"><ul class="f-pr"> <li><strong>Navigate</strong></li>
 						  <li><a href="index.html" aria-current="page">Home</a></li>
 						  <li><a href="about.html">About</a></li>
 						  <li><a href="contact.html">Contact</a></li></ul> 
@@ -283,5 +283,19 @@
       </div>
       <div id="background"></div>
       <script src="./public/main-bundle.js"></script> 
+	  <div id="whatsapp"></div>
+	  <script type="text/javascript">
+		$(function () {
+			$('#whatsapp').floatingWhatsApp({
+				phone: '+919513303773',
+				popupMessage: 'Hello, how can we help you?',
+				message: "I like your works, request for call back.",
+				showPopup: true,
+				showOnIE: false,
+				headerTitle: 'Welcome to Style Mi Space!',
+				buttonImage: '<img src="./public/svg/whatsapp.svg" />'
+			});
+		});
+	  </script>
    </body>
 </html>
